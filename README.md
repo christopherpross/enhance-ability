@@ -27,6 +27,9 @@ The main goal is to stop the site from being a headache to navigate.
 
     There is also a shortcut: Press `Alt+R` to open the dice menu instantly from anywhere.
 
+-   **Dropdown Fixes:**
+    The site is full of dropdowns that claim to be standard Comboboxes but are actually buttons hiding a list of options. This confuses screen readers into switching to Focus / Forms Mode and often getting you stuck. This has been fixed so that you see an expandable button that opens a list of choices below it.
+
 -   **And More!**
     I'm the worst when it comes to keeping feature lists up to date, but this is under active development. At the least, expect tons of new status check keys, shortcuts to jump around, etc.
 
