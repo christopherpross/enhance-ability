@@ -1,6 +1,7 @@
 # enhanceAbility
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kghelpgekkgankomahhpjcelnhndeinc?label=Chrome%20Web%20Store&style=flat-square&logo=google-chrome)](https://chromewebstore.google.com/detail/enhance-ability-better-a1/kghelpgekkgankomahhpjcelnhndeinc)
+[![Firefox Add-on](https://img.shields.io/amo/v/enhanceability?label=Firefox%20Add-on&style=flat-square&logo=firefox)](https://addons.mozilla.org/firefox/addon/enhanceability)
 
 This is a small browser extension I threw together to make D&D Beyond actually usable with a screen reader and keyboard. The name comes from the 2nd-level spell _Enhance Ability_. In D&D, you cast it to give a creature advantage on checks. This extension casts it on _you_, giving you advantage on the Check needed to navigate the app properly!
 
