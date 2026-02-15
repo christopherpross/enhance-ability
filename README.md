@@ -18,6 +18,9 @@ The main goal is to stop the site from being a headache to navigate.
 - **Table Fixes:**
   The site likes to use divs that look like tables but aren't tables. This script forces correct grid/table semantics onto spell lists, actions, inventory, and extras so your screen reader can actually understand the rows and columns. Instead of having to arrow down through every column, you can now use your table navigation keys to skim a specific column across all your items!
 
+- **Ability Scores & Saving Throws:**
+  Previously, the saving throws section was extremely annoying, presenting itself as a massive list of headings that slowed down screen reader navigation massively. The ability scores were even worse and had no accessibility roles at all. Now they're all good old semantic tables for screen readers. You can use your table navigation keys to move through your modifiers or trigger a check or save.
+
 - **Sidebar Accessibility :**
   This is the biggest boost! Normally, if you want to read what a spell or ability actually does, you have to click it, arrow through everything to get to the sidebar (losing your focus), and by the time you're done, you've lost your place in the main list. It's a massive slowdown.
 
