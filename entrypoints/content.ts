@@ -11,6 +11,7 @@ import { initNavEngine } from "@/utils/focusManager";
 import { initSpeech } from "@/utils/speech";
 import { Logger, patchLogInterface as patchLog } from "@/utils/log";
 import { patchDice } from "@/utils/dice";
+import { patchAbilityScores, patchSavingThrows } from "@/utils/scores";
 import { registerStatusKeys } from "@/utils/status";
 
 export default defineContentScript({
@@ -29,6 +30,8 @@ export default defineContentScript({
             patchInventory();
             patchSidebar();
             patchDice();
+            patchAbilityScores();
+            patchSavingThrows();
             patchComboboxes();
             patchLog();
             logger.subscribe();
